@@ -2,7 +2,6 @@ import pandas as pd
 
 # Define the path to the Excel file
 excel_path = '/content/SORTED DATASET FOR CODE.xlsx'
-
 def calculate_score(variable, score_ranges):
     for i in range(len(score_ranges)):
         if variable <= score_ranges[i][0]:
